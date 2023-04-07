@@ -1,0 +1,14 @@
+vars{ 
+    --accent-color: #1dbf4a
+    --accent-hover-color: #2e9d4d
+    --layout-color: #222222
+    --hover-color: #252525
+    
+}
+ 
+ 
+normal_dark  #00ff00 #BBBBBB #2E9D4D #1D853A #1E1E1E #161616 #454545 #000000 #ABABAB #474747 #1E1E1E #000000 10 /images/normal_dark.png
+normal_light #00ff00 #000000 #2E9D4D #1D853A #ffffff #4a4a4a #2e2e2e #000000 #ffffff #000000 #999999 #000000 10 /images/normal_light.png
+cyan-pink #00ff00 #ffffff #235fa8 #1a477d #e378d8 #f222c9 #ffffff #000000 #ffffff #00fbff #00789e #000000 10 /images/cyan-pink.png
+obsidian-black #7d7d7d #6D48FF #7d7d7d #ff0000 #000000 #ff0000 #575757 #7d7d7d #000000 #ff00ff #242424 #7d7d7d 20 /images/obsidian-black.png
+ 
