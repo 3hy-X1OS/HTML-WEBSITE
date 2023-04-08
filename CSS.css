@@ -1,146 +1,146 @@
 .sidebar {
-    background-color:beige;
-    border-radius: 20px;
-    padding-top: 5px;
-    padding-bottom: 10px;
-    margin-right: 0px;
-    position: none;
-    padding-top: 10px;
-
+  background-color: beige;
+  border-radius: 20px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  margin-right: 0px;
+  position: none;
+  padding-top: 10px;
 } h {
-    color:rgb(0, 0, 0); 
-    font-family: 'Ubuntu', sans-serif;;
-    font-weight: bolder;
-    font-size: 30px;
-} .button1 {
-    color:rgb(255, 255, 255);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border-color: rgb(0, 0, 0);
-    background-color: black;
-    width: 140px;
-    height:40px;
-    border-radius: 10px;
-    border-width: 0;
-    font-weight: normal;
-    font-size: large;
-    cursor:hand;
-    transition: all 0.7s;
-    margin-right: 10px;
-    cursor: crosshair;
-    margin-bottom:30px;
+  color: rgb(0, 0, 0);
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+}.button1 {
+  color: rgb(255, 255, 255);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-color: rgb(0, 0, 0);
+  background-color: black;
+  width: 140px;
+  height: 40px;
+  border-radius: 10px;
+  border-width: 0;
+  font-weight: normal;
+  font-size: large;
+  cursor: hand;
+  transition: all 0.7s;
+  margin-right: 10px;
+  cursor: crosshair;
+  margin-bottom: 30px;
+}.button1:hover {
+  transition: all 0.7s;
+  background-color: rgb(255, 255, 255);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(0, 0, 0);
+  width: 160px;
+  height: 50px;
+  transition-delay: 0.3s;
+  box-shadow: 1px 10px 30px 11px rgba(74, 74, 74, 0.54);
+}.button1:active {
+  color: transparent;
+  background-color: transparent;
+  transition: all 0.2s;
+  font-weight: bold;
+}.main_window {
+  width: 900;
+  height: 500;
+  color: aqua;
+}.invis {
+  color: transparent;
+}body {
+  background-color: rgb(3, 10, 42);
+  transition: all 3s;
+  text-align: center;
+}.imagewidth {
+  padding-left: 20px;
+  padding: 0;
+  padding-top: 0px;
+  padding-left: 10px;
+  margin: 0;
+}.cool_header {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  box-shadow: none;
+  font-size: 40;
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+  transition: all 3s;
+}body:hover {
+  background-color: rgb(0, 0, 0);
+  transition: all 3s;
+}.cool_header:hover {
+  color: rgb(92, 92, 92);
+  transition: all 3s;
+}.buttonpadding {
+  color: aliceblue;
+}p {
+  font-size: 9;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 0px;
+  font-weight: bolder;
+  transition: all 0.9s;
+} p:hover {
+  color: transparent;
+  transition: all 0.9s;
+}.button2 {
+  color: rgb(255, 255, 255);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(0, 0, 0);
+  width: 70px;
+  height: 20px;
+  padding-top: 2;
+  padding-bottom: 10px;
+  border-radius: 4px;
+  border-width: 0;
+  font-weight: normal;
+  font-size: 8;
+  cursor: hand;
+  transition: all 0.7s;
+  margin-right: 10px;
+  margin-bottom: 100px;
+}.button2:hover {
+  transition: all 0.7s;
+  background-color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(0, 0, 0);
+  width: 90px;
+  height: 20px;
+}.button2:active {
+  color: rgb(255, 255, 255);
+  background-color: rgb(103, 103, 103);
+  transition: all 0.2s;
+  font-weight: normal;
+} .image-container {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+} .image {
+  width: 25px;
+  height: 25px;
+  transition: opacity 1s ease;
+  opacity:0.5;
+  transition: all 0.5s;
+  padding: 20px;
+} .image:hover {
+  opacity: 1;
+  transition: all 0.5s;
     
-
-} .button1:hover {
-    transition: all 0.7s;
-    background-color:rgb(255, 255, 255);
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:rgb(0, 0, 0);
-    width:160px;
-    height:50px;
-    transition-delay: 0.3s;
-} .button1:active {
-    color:transparent; 
-    background-color: transparent;
-    transition: all 0.2s;
-    font-weight: bold;
-
-} .main_window { 
-    width: 900;
-    height:500;
-    color:aqua;
-} .invis { 
-    color:transparent;
-} body { 
-    background-color:rgb(3, 10, 42); 
-    transition: all 3s;
-    text-align: center;
-    
-} .imagewidth { 
-    padding-left: 20px;;
-    padding:0;
-    padding-top: 0px;
-    padding-left:10px;
-    margin:0;
-
-
-} .cool_header { 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    box-shadow: none;
-    font-size:40;
-    color:rgb(255, 255, 255); 
-    font-weight: bolder;
-    transition: all 3s;
-} body:hover { 
-    background-color: rgb(0, 0, 0);
-    transition: all 3s;
-} .cool_header:hover { 
-    color:rgb(92, 92, 92);
-    transition: all 3s;
-} .buttonpadding { 
-    color: aliceblue;
-} p {
-    font-size: 9;
-    color: white;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 0px;
-    font-weight: bolder;
-} p:hover { 
-    color:rgb(92, 92, 92);
-    transition: all 3s;
-} .image1 {
-    position: fixed;
-    bottom: 10;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 20px;
-    padding-left: 100px;
-  } .image2 {
-    position: fixed;
-    bottom: 10;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 20px;
-  } .image3 {
-    position: fixed;
-    bottom: 10;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 20px;
-    padding-right: 100px;
-  } .image1:hover { 
-    background-color: transparent;
-    filter: hue-rotate(180deg);
-
-
-
-  } .button2 {
-    color: rgb(255, 255, 255);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(0, 0, 0);
-    width: 70px;
-    height: 20px;
-    padding-top: 2;
-    padding-bottom: 3px;
-    border-radius: 4px;
-    border-width: 0;
-    font-weight: normal;
-    font-size: 8;
-    cursor: hand;
-    transition: all 0.7s;
-    margin-right: 10px;
-    margin-bottom: 100px;
-  } .button2:hover {
-    transition: all 0.7s;
-    background-color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(0, 0, 0);
-    width: 90px;
-    height: 20px;
-    transition-delay: 0.2s;
-  } .button2:active {
-    color: rgb(255, 255, 255);
-    background-color: rgb(103, 103, 103);
-    transition: all 0.2s;
-    font-weight: normal;
-  }
+} .image:active {
+    opacity: 0;
+} .cards {
+  perspective: 500px;
+} .card {
+  background: transparent;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  position: relative;
+  transform: translateZ(10px) rotateX(20deg) rotateY(20deg);
+  transform-style: preserve-3d;
+  will-change: transform;
+  transition: all .5s;
+} .card:hover {
+  transform: translateZ(0px) rotateX(0deg) rotateY(0deg);
+  box-shadow: 1px 10px 30px 11px rgba(50, 37, 122, 0.54);
+}
