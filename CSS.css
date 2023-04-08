@@ -26,7 +26,6 @@
   transition: all 0.7s;
   margin-right: 10px;
   cursor: crosshair;
-  margin-bottom: 30px;
 }.button1:hover {
   transition: all 0.7s;
   background-color: rgb(255, 255, 255);
@@ -111,24 +110,28 @@
   background-color: rgb(103, 103, 103);
   transition: all 0.2s;
   font-weight: normal;
-} .image-container {
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    width: 100%;
+}.image-container {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 } .image {
   width: 25px;
   height: 25px;
   transition: opacity 1s ease;
-  opacity:0.5;
+  opacity: 0.5;
   transition: all 0.5s;
-  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
 } .image:hover {
   opacity: 1;
   transition: all 0.5s;
-    
 } .image:active {
-    opacity: 0;
+  opacity: 0;
 } .cards {
   perspective: 500px;
 } .card {
