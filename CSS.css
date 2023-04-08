@@ -147,6 +147,6 @@
   will-change: transform;
   transition: all .5s;
 } .card:hover {
-  transform: translateZ(-8px) rotateX(-8deg) rotateY(-8deg);
+  transform: translateZ(0px) rotateX(0deg) rotateY(0deg);
   box-shadow: 1px 10px 30px 11px rgba(50, 37, 122, 0.54);
 }
