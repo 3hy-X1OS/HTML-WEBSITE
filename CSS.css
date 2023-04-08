@@ -46,6 +46,9 @@
   color: aqua;
 }.invis {
   color: transparent;
+  background-color: transparent;
+  border-width: 0px;
+  cursor:help;
 }body {
   background-color: rgb(3, 10, 42);
   transition: all 3s;
@@ -144,6 +147,6 @@
   will-change: transform;
   transition: all .5s;
 } .card:hover {
-  transform: translateZ(0px) rotateX(0deg) rotateY(0deg);
+  transform: translateZ(-8px) rotateX(-8deg) rotateY(-8deg);
   box-shadow: 1px 10px 30px 11px rgba(50, 37, 122, 0.54);
 }
